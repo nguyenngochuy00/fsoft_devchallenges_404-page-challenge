@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  padding: 20px 40px 0 40px;
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  line-height: 25.18px;
+  text-transform: uppercase;
+  color: #333333;
+
+  @media (max-width: 768px) {
+    padding: 20px 80px 0 80px;
+  }
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  padding: 120px 40px 0 40px;
+
+  @media (max-width: 768px) {
+    padding: 120px 80px 0 80px;
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.content-left {
+  width: 90%;
+  height: 90%;
+
+  @media (max-width: 768px) {
+    width: 60vw;
+    height: 60vh;
+  }
+}
+
+.content-right-title {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 94.78px;
+  color: #333333;
+
+  @media (max-width: 1200px) {
+    font-size: 49px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 41px;
+    line-height: 80.78px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 48px;
+    line-height: 71.09px;
+    /* padding: 34px 0 0 0; */
+  }
+
+  @media (max-width: 768px) {
+    font-size: 48px;
+    line-height: 71.09px;
+    padding: 80px 0 0 0;
+  }
+}
+
+.content-right-detail {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  line-height: 35.54px;
+  color: #4f4f4f;
+  padding: 40px 313px 0 0;
+
+  @media (max-width: 1400px) {
+    padding: 38px 150px 0 0;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 38px 60px 0 0;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 22px;
+    padding: 38px 3px 0 0;
+  }
+
+  @media (max-width: 912px) {
+    .content-right-detail {
+      font-size: 18px;
+      line-height: 26.66px;
+      padding: 38px 0 30px 0;
+    }
+  }
+}
+
+.content-right-button {
+  margin-top: 80px;
+  height: 68px;
+  width: 216px;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  background-color: green;
+  border: 1px solid green;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20.73px;
+  transition: all 1s ease;
+}
+
+.content-right-button:hover {
+  background-color: rgb(2, 192, 2);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 200px 0 15px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #bdbdbd;
+}
