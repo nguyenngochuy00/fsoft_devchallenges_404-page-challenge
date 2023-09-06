@@ -1,3 +1,4 @@
+- Figma design: https://www.figma.com/file/QeKWLNhB13zDjJzqR22TKE/404-page-challenge?type=design&node-id=0-1&mode=design&t=S6eJO3CSyTxe1wx8-0
 - Link web: https://devchanllenges-404-page-challenge.netlify.app/
 - Link github: https://github.com/nguyenngochuy00/fsoft_devchallenges_404-page-challenge
 - Technology: HTML, CSS
