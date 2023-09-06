@@ -1,1 +1,3 @@
-https://devchanllenges-404-page-challenge.netlify.app/
+- Link web: https://devchanllenges-404-page-challenge.netlify.app/
+- Link github: https://github.com/nguyenngochuy00/fsoft_devchallenges_404-page-challenge
+- Technology: HTML, CSS
